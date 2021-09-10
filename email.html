@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+.row{
+	display: flex; 
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-4,.col-md-12,.col-sm-12{
+position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;}
+p{
+	font-size: 15px;
+	margin-bottom: 0;
+}
+a {
+    color: #0258a1;
+    text-decoration: none;
+    background-color: transparent;
+   
+}
+h1{
+	font-size: 30px;
+	position:relative;
+	font-weight: 600;
+	margin:0px;
+	color: #0258a1;
+	font-size: 30px;
+	background:none;
+	padding: 20px 0;
+	font-family: 'Rubik', sans-serif;
+}
+
+h2,h3,h4,h5,h6 {
+	position:relative;
+	font-weight: 600 !important;
+	margin:0px;
+	line-height: 1.2;
+	color: #0258a1;
+	font-size: 15px;
+	background:none;
+	font-family: 'Rubik', sans-serif;
+}
+.row.paypal{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding-left: 20px;
+    padding-right: 20px;
+}
+
+.row.paypal h3, .row.paypal span{
+	color: #0258a1;
+	font-weight: 400;
+}
+.row.paypal h3{
+	font-size: 20px;
+	font-weight: 600;
+}
+hr.solid {
+	border-top: 1px solid #bbb;
+  }
+.table-bordered thead td, .table-bordered thead th{
+	background: #0258a1;
+    color: white;
+	padding: 10px 0;
+}
+tbody td{
+	padding: 20px 0px;
+}
+.address{
+	padding: 20px 0;
+}
+
+.address h3{
+	font-weight: 600;
+	font-size: 30px;
+}
+
+.address p{
+	font-size: 15px;
+	padding: 0 30px;
+}
+
+img{
+	
+	width: 32px;
+	height: 32px;
+	vertical-align: middle;
+    border-style: none;
+}
+
+.offers-section{
+	position: relative;
+	/*
+	padding: 120px 0 0 0px;*/
+}
+
+.col-lg-4 {
+	text-align: center;
+}
+
+.row.email{
+	padding: 100px 0;
+	background: #0258a1;
+}
+
+.row.email p,.row.email span{
+    font-size: 30px;
+	color: white;
+	font-weight: 600 !important;
+}
+.row.email span{
+    color: #0258a1;
+	background-color: white;
+	padding: 0 10px;
+	
+}
+.row.invoice{
+	padding: 20px 0;
+	background-color: #ebebeb;
+}
+
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+	border-collapse: collapse;
+}
+
+
+/* media query */
+
+@media only screen and (max-width: 1024px){
+      .auto-container{
+		  width: 100% !important;
+	  }
+}
+	
+
+  </style>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <section class="offers-section" >
+        <div class="auto-container" style="margin:0 auto; width: 500px;">
+            <div class="row">
+                <!-- Content Column -->
+                <div class="content-column col-lg-4 col-md-12 col-sm-12 ">
+                
+                </div>
+                <div class="content-column col-lg-4 col-md-12 col-sm-12 "> 
+                    <div class="row email">          
+                        <div class="text sname col-lg-12 col-md-12 col-sm-12 " style="padding-bottom: 10px;"><p>Dear <span> Student Name </span></p></div>
+                       <div class="text sname col-lg-12 col-md-12 col-sm-12 "><p>THANKS FOR YOUR PAYMENT!</p></div>
+                    </div>   
+                        <div class="row invoice">
+                            
+                            <table class="table table-bordered" style=" margin-bottom: 0; border:0px;">
+                                <tbody>
+                                  <tr>
+                                    <td style="width: 33.33%;"><img src="images/image-7.jpeg" alt="" class="imges">
+                                        <h3 class="invoice-no">Invoice No:</h3>
+                                        <p>#2564</p></td>
+                                    <td style="width: 33.33%;"><img src="images/image-2.jpeg" alt="" class="imges">
+                                        <h3 class="invoice-date">Invoice Date:</h3>
+                                        <p>20-12-2021</p></td>
+                                    <td style="width: 33.33%;"> <img src="images/rupee.png" alt="" class="imges">
+                                        <h3 class="invoice">Total:</h3>
+                                        <p><span>₹</span>560</p></td>
+                                  </tr>
+                                </tbody>
+                              </table>
+                        </div>
+                        <div><h1>Invoice Recape</h1></div>
+                        <table class="table table-bordered">
+                            <thead>
+                              <tr>
+                                <th>S. No</th>
+                                <th>Fee Name</th>
+                                <th>Fee Amount</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1.</td>
+                                <td>Admission Fee</td>
+                                <td><span>₹</span>5000</td>
+                              </tr>
+                              <tr>
+                                <td>2.</td>
+                                <td>Admission Fee</td>
+                                <td><span>₹</span>5000</td>
+                              </tr>
+                              <tr>
+                                <td>3.</td>
+                                <td>Admission Fee</td>
+                                <td><span>₹</span>5000</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <div class="row paypal">
+                              <div style="text-align: left; width: 50%;">
+                                    <span>Payment method:<br></span>
+                                    <h3>PAYPAL</h3>
+                              </div>
+                              <div style="text-align: right; width: 50%;">
+                                <h3>Total:<span>₹</span>  15,000</h3>
+                               
+                            </div> 
+                          </div>
+                          <hr class="solid">
+                          <div class="address">
+                            <h3>School Address</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                        </div>
+                        <hr class="solid">
+                        <br>
+                        <div class="social">
+                            <div class="row" style="margin-left: auto; margin-right: auto; display: block;" >
+                                <a href="#" target="_blank"><img src="images/image-4.png"></a>
+                                <a href="#" target="_blank"><img src="images/image-5.png"></a>
+                                <a href="#" target="_blank"><img src="images/image-1.png"></a>
+                                <a href="#" target="_blank"><img src="images/image-3.png"></a>
+                                <br>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="footer">
+                            <p>All rights reserved. School Name. Powered By <a href="https://educase.io" target="_blank">Educase India</a></p>
+                        </div>
+                        <br>
+                        </div>
+                          
+                </div>
+               
+                <div class="content-column col-lg-4 col-md-12 col-sm-12 ">
+                
+                </div>
+        </div>
+    </section>
+<!--
+    <script src="js/bootstrap.min.js"></script>-->
+</body>
